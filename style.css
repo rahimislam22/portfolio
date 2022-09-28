@@ -1,0 +1,357 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:Poppins&display=swap;
+    box-sizing: border-box;
+}
+#hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url(image/bacground\ .png);
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45x;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+#logo{
+    color:aqua;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-top:3%;
+}
+span{
+    color:#f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: aqua;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:#f9004d;
+    transition: 0.4s;
+}
+#button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.4s;
+    box-shadow: 0px 0px 5px red, 0px 0px 15px red;
+
+}
+#button :hover{
+    transform: scale(1.2);
+    
+}
+#content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: rotateY(-50%);
+    background: black;
+}
+h1{
+    color: aqua;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+h3{
+    color: rgb(216, 175, 255);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(216, 175, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+#news form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+#news form :first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid aqua;
+    outline: none;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+}
+#news form :last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+    top: 6px;
+    right: 6px;
+}
+
+
+#section1{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#191919;
+}
+#section2{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#080505;
+}
+img{
+    height: auto;
+    width: 430px;
+}
+#img2{
+    height: auto;
+    width: 430px;
+    border-radius: 50%;
+}
+#about{
+    width: 550px;
+}
+#main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aqua;
+    
+}
+#about h2{
+    color: #f9004d;
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    
+}
+#about h5{
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    
+}
+#about p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color:black;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    border-color: aqua;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+}
+button :hover{
+    background-color: transparent;
+    border: 2px solid aqua;
+    cursor: pointer;
+}
+
+#service{
+    background: black;
+    width: 100%;
+    padding: 100px;
+}
+#title h2{
+    color: #f9004d;
+    font-size: 75px;
+    width: 1130;
+    margin: 30px auto;
+    text-align: center;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+#card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: black;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid aqua;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+    margin-left: 50px;
+}
+#card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: whitesmoke;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+#pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 25px;
+}
+#button1{
+    background-color:black;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;        
+    border-color: aqua;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+}
+#button2{
+    background-color:black;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;        
+    border-color: aqua;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+}
+h1{
+    background-color: black;
+    color: aqua;
+    text text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #service{
+    background-color: black;
+}
+#title{
+    color: aqua;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+}
+#card1{
+    width: 335px;
+    height: 365px;
+    background-color: rgb(12, 4, 10);
+    line-height: 30px;
+    padding: 20px 35px;
+    border-radius: 20%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    color: whitesmoke;
+    border: 5px solid aqua;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+}
+#card2{
+    width: 335px;
+    height: 365px;
+    background-color: rgb(12, 4, 10);
+    line-height: 30px;
+    padding: 20px 35px;
+    border-radius: 20%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    color: whitesmoke;
+    border: 5px solid aqua;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+}
+#card3{
+    width: 335px;
+    height: 365px;
+    background-color: rgb(12, 4, 10);
+    line-height: 30px;
+    padding: 20px 35px;
+    border-radius: 20%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    color: whitesmoke;
+    border: 5px solid aqua;
+    box-shadow: 0px 0px 5px aqua, 0px 0px 15px aqua;
+    float: center;
+} 
+#total{
+    display: inline block;
+    justify-content: center;
+} */
